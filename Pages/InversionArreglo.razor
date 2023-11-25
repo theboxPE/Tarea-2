@@ -1,0 +1,31 @@
+@page "/inversionarreglo"
+<h1>Inversion Arreglo</h1>
+
+<div class="form-group">
+    <label for="numero1">Ingresa n cantidad de numeros separados por comas:</label>
+    <input type="text" @bind="inputNumbers" class="form-control" id="numero1" placeholder="Numero1">
+</div>
+
+
+<button type="button" class="btn btn-primary m-4" @onclick="InvertArray">Mostrar</button>
+
+@if (!string.IsNullOrWhiteSpace(Invertido))
+{
+    <p>Arreglo Invertido: @Invertido</p>
+}
+
+@code{     
+    string inputNumbers = "";
+    string Invertido = "";
+
+        private void InvertArray()
+        {
+            string[] inputArray = inputNumbers.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+
+            Array.Reverse(inputArray);
+            Invertido = string.Join(", ", inputArray);
+        }
+
+    
+
+}

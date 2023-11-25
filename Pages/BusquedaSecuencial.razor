@@ -1,0 +1,51 @@
+@page "/busquedasecuencial"
+<h1>Busqueda Secuencial</h1>
+
+<div class="form-group">
+    <label for="inputNumber">Ingrese el número a buscar:</label>
+    <input type="text" class="form-control" @bind="numeroABuscar" id="inputNumber">
+</div>
+
+<br>
+<button class="btn btn-primary" @onclick="BuscarNumero">Buscar</button>
+
+
+<h3>Datos en el arreglo:</h3>
+<ul>
+    @foreach (var numero in numeros)
+    {
+        <li>@numero</li>
+    }
+</ul>
+
+@if (resultado != null)
+{
+    <p>@resultado</p>
+}
+
+@code {
+    int[] numeros = { 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100 };
+    int numeroABuscar;
+    string resultado = "";
+
+    void BuscarNumero()
+    {
+        resultado = null!;
+
+        for (int i = 0; i < numeros.Length; i++)
+        {
+            if (numeros[i] == numeroABuscar)
+            {
+                resultado = $"El número {numeroABuscar} se encontró en la posición {i}.";
+                break;
+            }
+        }
+
+        if (resultado == null)
+        {
+            resultado = $"El número {numeroABuscar} no se encontró en el arreglo.";
+        }
+    }
+}
+
+

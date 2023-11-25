@@ -1,0 +1,85 @@
+@page "/arreglo"
+<h1>Arreglo</h1>
+
+<br>
+<div class="form-group">
+    <label for="numero1">Inicio del arreglo</label>
+    <input type="text" @bind="inicio" class="form-control" id="numero1" placeholder="Numero1">
+</div>
+
+<div class="form-group mt-4">
+    <label for="numero2">Final del arreglo</label>
+    <input type="text" @bind="fin" class="form-control" id="numero2" placeholder="Numero2">
+</div>
+
+<button type="button" class="btn btn-primary m-4" @onclick="EncontrarPrimos">Mostrar</button>
+
+@if (primosEncontrados.Count > 0)
+{
+    <h4>Números Primos encontrados:</h4>
+    <ul>
+        @foreach (var primo in primosEncontrados)
+        {
+            <li>@primo</li>
+        }
+    </ul>
+}
+
+@if (noPrimosEncontrados.Count > 0)
+{
+    <h4>Arreglo con sus limites:</h4>
+    <ul>
+        @for (int i = inicio; i <= fin; i++)
+        {
+            <li>@i</li>
+        }
+
+    </ul>
+}
+
+
+
+@code{
+    int inicio;
+    int fin;
+    List<int> primosEncontrados = new List<int>();
+    List<int> noPrimosEncontrados = new List<int>();
+
+    void EncontrarPrimos()
+    {
+        primosEncontrados.Clear(); 
+        noPrimosEncontrados.Clear(); 
+
+        for (int numero = inicio; numero <= fin; numero++)
+        {
+            if (EsPrimo(numero))
+            {
+                primosEncontrados.Add(numero);
+            }
+            else
+            {
+                noPrimosEncontrados.Add(numero);
+            }
+        }
+    }
+
+    bool EsPrimo(int numero)
+    {
+        if (numero <= 1)
+        {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.Sqrt(numero); i++)
+        {
+            if (numero % i == 0)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+
+}

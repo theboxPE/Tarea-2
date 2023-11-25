@@ -1,0 +1,75 @@
+{
+  "__Version": 2,
+  "SerializedFilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\obj\\Debug\\net7.0\\project.razor.vscode.json",
+  "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\tarea2.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "7.0"
+  },
+  "ProjectWorkspaceState": {
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "tarea2",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\Pages\\AcercaDe.razor",
+      "TargetPath": "Pages\\AcercaDe.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\Pages\\Arreglo.razor",
+      "TargetPath": "Pages\\Arreglo.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\Pages\\BusquedaSecuencial.razor",
+      "TargetPath": "Pages\\BusquedaSecuencial.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\Pages\\Calculadora.razor",
+      "TargetPath": "Pages\\Calculadora.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\Pages\\InversionArreglo.razor",
+      "TargetPath": "Pages\\InversionArreglo.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\Pages\\OrdenamientoBurbuja.razor",
+      "TargetPath": "Pages\\OrdenamientoBurbuja.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    }
+  ]
+}
