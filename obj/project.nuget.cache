@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WnApwjaX7YbUflAJkQ3NitBbrXmbCpaUeGx3FTOiynJFm3VNO8KdW3LHikszTzjuttrTxQFokUIL4mkL4VuzFw==",
+  "dgSpecHash": "EcFuUPj3l3hK+9tl58mJnGNveuutKsEu+WB7+JanWf44QjS5bpr8Z6SxkZ5awMj0EKIScAecL5j4RUMVdKiTrA==",
   "success": true,
   "projectFilePath": "C:\\Users\\perez\\Documents\\Gabriel\\cuatri 6\\programacion web\\Tarea 2\\tarea2.csproj",
   "expectedPackageFiles": [
@@ -28,10 +28,13 @@
     "C:\\Users\\perez\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\perez\\.nuget\\packages\\microsoft.jsinterop\\7.0.10\\microsoft.jsinterop.7.0.10.nupkg.sha512",
     "C:\\Users\\perez\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.10\\microsoft.jsinterop.webassembly.7.0.10.nupkg.sha512",
+    "C:\\Users\\perez\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23211.1\\microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\perez\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23211.1\\microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
+    "C:\\Users\\perez\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.0\\microsoft.net.sdk.webassembly.pack.8.0.0.nupkg.sha512",
     "C:\\Users\\perez\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\perez\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\perez\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\perez\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.11.nupkg.sha512"
+    "C:\\Users\\perez\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.14\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }
